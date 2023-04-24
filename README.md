@@ -5,95 +5,30 @@
 
   <h1 align="center">Ali Eren</h1>
 
-  <p align="center">
-      Hi there 👋 I’m currently working on the Python, WEB, Robotics and Blockchain.
-    <br />
-    <br />
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alieren196&theme=blue-green&layout=compact)](https://github.com/anuraghazra/github-readme-stats" alt="Most used languages">
-  <br />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api?username=alieren196&theme=blue-green&show_icons=true)](https://github.com/anuraghazra/github-readme-stats" alt="Ali Eren's github stats">
-
-  <br />
-  <br />
-  
-  <img src="https://github-profile-trophy.vercel.app/?username=alieren196&theme=darkhub&row=1&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy" alt="Ali Eren's github trophy">
-  
-  </p>
-</p>
-
-<p align="center">
-  <img align="center" src="/github-metrics.svg" alt="Metrics" width="450">
-</p>
-
-```python
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+# 💫 About Me:
+Hi there 👋 I’m currently working on the Python, WEB, Robotics and Blockchain<br>I am working on Naruno
 
 
-import json
-from hashlib import sha256
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/4J9KGKcR) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ichalieren ) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Ali Eren Tabak) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/alierent196) 
 
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=alieren196&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=alieren196&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=alieren196&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-class Ali_Eren_Tabak:
-    """
-    Ali Eren Tabak is a human, loves programming, at the same time ı am working Decentra Network
-    """
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=alieren196&theme=alduin&no-frame=false&no-bg=true&margin-w=4)
 
-    def __init__(self):
-        self.type = "Human-Male"
-        self.age = 18
-        self.country = "Turkey"
-        self.city = "Gaziantep"
+## 🐦 Latest Tweet
+[![](https://gtce.itsvg.in/api?username=alierent196)](https://github.com/VishwaGauravIn/github-twitter-card-embed)
 
-        self.job = "Programmer"
-        self.working_areas = [
-            "Python",
-            "WEB",
-            "Blockhain"
-        ]
-        self.projects = [
-            ["Decentra Network", "https://github.com/alieren196/Decentra-Network"],
-            ["Jack_Assistant", "https://github.com/alieren196/Jack_Asisstant"],
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=alieren196&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-        ]
-        self.linkedin = "https://www.linkedin.com/in/ali-eren-tabak-48300320b/"
-    def dump_json(self):
-        """
-        Returns a json containing the Ali_Eren_Tabak data.
-        """
+---
+[![](https://visitcount.itsvg.in/api?id=alieren196&icon=2&color=5)](https://visitcount.itsvg.in)
 
-        data = {
-            "type": self.type,
-            "age": self.age,
-            "country": self.country,
-            "city": self.city
-        }
-        return data
-
-    def get_hash(self, encoding="ascii"):
-        """
-        Returns a sha256 created using the dump_json() function.
-        """
-
-        transaction_data = json.dumps(self.dump_json()).encode(encoding)
-        return sha256(transaction_data).hexdigest()        
-        
-if __name__ == "__main__":
-    the_ali = Ali_Eren_Tabak
-    print(f"ID: {the_ali.get_hash()}")
-
-    print("\nProjects:")
-    for project in the_ali.projects:
-        print(f"{project[0]}: {project[1]}")
-
-    print("\nLibraries:")
-    for library in the_ali.libraries:
-        print(f"{library[0]}: {library[1]}") 
-        
-    
-    print(f"\nLinkedIn: {the_ali.linkedin}")
-
-```        
-        
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
